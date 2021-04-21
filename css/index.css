@@ -34,7 +34,7 @@ a::before {
     margin-right: 10px;
 }
 
-#button {
+.button {
     display: inline-block;
     background-color: #BA1F33;
     padding: 18px 20px;
@@ -43,8 +43,20 @@ a::before {
     transition: transform 100ms linear;
 }
 
-#button:hover {
+.button:hover {
     transform: scale(1.07);
     background-color: #900114;
     opacity: 0.5;
+}
+
+#botao-download {
+    position: absolute;
+    width: 170px;
+    height: 60px;
+}
+
+#botao-contatos {
+    position: absolute;
+    width: 170px;
+    height: 60px;
 }
